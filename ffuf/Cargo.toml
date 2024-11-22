@@ -1,0 +1,10 @@
+[package]
+name = "ffuf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["cargo"] }
+clap_derive = "4.5.13"
+reqwest = { version = "0.12.7", features = ["blocking"] }
+tokio = { version = "1.39.3", features = ["full"] }

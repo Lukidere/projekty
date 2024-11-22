@@ -1,0 +1,3 @@
+cargo:rustc-link-lib=static=ring-core
+cargo:rustc-link-lib=static=ring-test
+cargo:rustc-link-search=native=/home/dhmnztr/programowanie/pogoda/target/debug/build/ring-36f30d20a183dfd3/out
